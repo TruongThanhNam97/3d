@@ -1,10 +1,12 @@
 body {
 	margin: 0;
-	background-color: #000;
+	background-image: url('./images/scorpio-constellation-zodiac-sign-scorpio-constellation-lines_sbdkrpyvx_thumbnail-full13.png');
 	color: #fff;
 	font-family: Monospace;
 	font-size: 13px;
 	line-height: 24px;
+	background-position: center center;
+	background-size: 100% 100%;
 }
 
 a {
