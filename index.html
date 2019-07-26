@@ -22,26 +22,26 @@
       .element {
         width: 140px;
         height: 180px;
-        box-shadow: 0px 0px 12px #034AA6;
+        box-shadow: 0px 0px 12px #034aa6;
         cursor: default;
         border-radius: 10px;
       }
 
       .element:hover {
-        box-shadow: 0px 0px 20px 7px #034AA6;
+        box-shadow: 0px 0px 20px 7px #034aa6;
       }
 
       button {
         color: rgba(127, 255, 255, 0.75);
-        background: #010D26;
+        background: #010d26;
         border-radius: 5px;
         padding: 5px 10px;
         cursor: pointer;
-        border-color: #010D26;
+        border-color: #010d26;
       }
 
       button:hover {
-        background-color: #0339A6;
+        background-color: #0339a6;
       }
 
       button:active {
@@ -65,6 +65,15 @@
       <button id="helix">HELIX</button>
       <button id="grid">GRID</button>
     </div>
+
+    <embed
+      name="GoodEnough"
+      src="./musics/Noi-Nay-Co-Anh-Son-Tung-M-TP.mp3"
+      loop = "2"
+      hidden = "true"
+      autostart = "true"
+      volume = "50"
+    />
 
     <script type="module">
       import * as THREE from "./three.module.js";
@@ -474,7 +483,7 @@
 
           var image = document.createElement("img");
           image.src = table[i];
-          image.className = 'image';
+          image.className = "image";
           element.appendChild(image);
 
           var object = new CSS3DObject(element);
