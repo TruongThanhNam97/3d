@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>3D</title>
+    <title>Album</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -69,7 +69,7 @@
     <embed
       name="GoodEnough"
       src="./musics/Noi-Nay-Co-Anh-Son-Tung-M-TP.mp3"
-      loop = "2"
+      loop = "true"
       hidden = "true"
       autostart = "true"
       volume = "50"
@@ -82,21 +82,225 @@
       import { CSS3DRenderer, CSS3DObject } from "./CSS3DRenderer.js";
 
       const img1 =
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqOS362IFieaTJf1RmbY6YQZvAO0a5f58Rv8WuM_3ROsXoVbG";
+        "./images/p1.jpg";
       const img2 =
-        "https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.0-9/65249556_2201751060040954_8485490144231555072_n.jpg?_nc_cat=106&_nc_oc=AQkH2oK7cuLZQKLBJMXAAYseocRSGb5uxc1mNBNFH6meh0CC1yDwE55l5I-WD9nLCuk&_nc_ht=scontent.fsgn2-3.fna&oh=ab4392aa33277b6b1fb65db0cd5141e3&oe=5DEAE0BF";
+        "./images/p2.jpg";
       const img3 =
-        "https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/66639423_1639921836140578_936290402237939712_n.jpg?_nc_cat=105&_nc_oc=AQltOUwkzPpKWe9TD3bJb1yGDjjIAPu2JPa7584sYm5BzZ7awiZ_mEFDPSibhsg3il8&_nc_ht=scontent.fsgn2-1.fna&oh=7e74b434a8cda1862f0c999a1a18dc1a&oe=5DE0D19A";
+        "./images/p3.jpg";
       const img4 =
-        "https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/15203269_600714530112846_4619159008164388523_n.jpg?_nc_cat=111&_nc_oc=AQlhn8S7GW1vl64Zyja01d9TG925GIf_iP6YFhfnUmFahhBZUFBQMsticvH2CrQEDPI&_nc_ht=scontent.fsgn2-1.fna&oh=5c6a721851d172c2f265fe4761891b54&oe=5DE12C3F";
+        "./images/p4.jpg";
       const img5 =
-        "https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-1/c3.0.720.720a/59965043_1775399935938548_2034154575048474624_n.jpg?_nc_cat=109&_nc_oc=AQnF7Or-DNQUrUJhEbfDK57-AR879ncByuLY8u06yufVS4iROMthbRujNSivFMrF8R8&_nc_ht=scontent.fsgn2-4.fna&oh=b110a75255304a147619ae16c82739c9&oe=5DDF7AD2";
+        "./images/p5.jpg";
       const img6 =
-        "https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.0-9/26168079_2115959895292050_4075496355355061106_n.jpg?_nc_cat=106&_nc_oc=AQlwRZofyzpD4g2P30Fh3lw6GRCZ8JlG2dg4VU-eInJrNhWdSbNp01w-ULMOQPm8bh8&_nc_ht=scontent.fsgn2-3.fna&oh=cbf1162b122796ffa83e305065e248c3&oe=5DE66765";
+        "./images/p6.jpg";
       const img7 =
-        "https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/34962526_1670201939745666_935045514557128704_n.jpg?_nc_cat=109&_nc_oc=AQlhIU83HaivQnDiX0q_qLJDVn7Te7oHdFehHttxUfNi90gxsKBzzWHKVN2DuQm1WFQ&_nc_ht=scontent.fsgn2-4.fna&oh=634696a511718abac824e229b21aba0c&oe=5DA325B4";
+        "./images/p7.jpg";
       const img8 =
-        "https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.0-9/48413855_1935705749882377_5781451688984444928_n.jpg?_nc_cat=106&_nc_oc=AQlBowkYkeFcaAuY8YUk-njUHoi97tMDQqyeakUJnMWG4KbgzqSy1jVZS3uMKZPqvkw&_nc_ht=scontent.fsgn2-3.fna&oh=4fa0775a8c2249151e5dc062e4c8d653&oe=5DAF2103";
+        "./images/p8.jpg";
+      const img9 =
+        "./images/p9.jpg";
+      const img10 =
+        "./images/p10.jpg";
+      const img11 =
+        "./images/p11.jpg";
+      const img12 =
+        "./images/p12.jpg";
+      const img13 =
+        "./images/p13.jpg";
+      const img14 =
+        "./images/p14.png";
+      const img15 =
+        "./images/p15.png";
+      const img16 =
+        "./images/p16.jpg";
+      const img17 =
+        "./images/p17.jpg";
+      const img18 =
+        "./images/p18.jpg";
+      const img19 =
+        "./images/p19.jpg";
+      const img20 =
+        "./images/p20.jpg";
+      const img21 =
+        "./images/p21.jpg";
+      const img22 =
+        "./images/p22.jpg";
+      const img23 =
+        "./images/p23.png";
+      const img24 =
+        "./images/p24.png";
+      const img25 =
+        "./images/p25.png";
+      const img26 =
+        "./images/p26.jpg";
+      const img27 =
+        "./images/p27.png";
+      const img28 =
+        "./images/p28.jpg";
+      const img29 =
+        "./images/p29.jpg";
+      const img30 =
+        "./images/p30.png";
+      const img31 =
+        "./images/p31.jpg";
+      const img32 =
+        "./images/p32.jpg";
+      const img33 =
+        "./images/p33.jpg";
+      const img34 =
+        "./images/p34.png";
+      const img35 =
+        "./images/p35.jpg";
+      const img36 =
+        "./images/p36.jpg";
+      const img37 =
+        "./images/p37.jpg";
+      const img38 =
+        "./images/p38.jpg";
+      const img39 =
+        "./images/p39.jpg";
+      const img40 =
+        "./images/p40.jpg";
+      const img41 =
+        "./images/p41.jpg";
+      const img42 =
+        "./images/p42.jpg";
+      const img43 =
+        "./images/p43.jpg";
+      const img44 =
+        "./images/p44.jpg";
+      const img45 =
+        "./images/p45.jpg";
+      const img46 =
+        "./images/p46.jpg";
+      const img47 =
+        "./images/p47.jpg";
+      const img48 =
+        "./images/p48.jpg";
+      const img49 =
+        "./images/p49.jpg";
+      const img50 =
+        "./images/p50.jpg";
+      const img51 =
+        "./images/p51.jpg";
+      const img52 =
+        "./images/p52.jpg";
+      const img53 =
+        "./images/p53.jpg";
+      const img54 =
+        "./images/p54.jpg";
+      const img55 =
+        "./images/p55.jpg";
+      const img56 =
+        "./images/p56.jpg";
+      const img57 =
+        "./images/p57.jpg";
+      const img58 =
+        "./images/p58.jpg";
+      const img59 =
+        "./images/p59.jpg";
+      const img60 =
+        "./images/p60.jpg";
+      const img61 =
+        "./images/p61.jpg";
+      const img62 =
+        "./images/p62.jpg";
+      const img63 =
+        "./images/p63.jpg";
+      const img64 =
+        "./images/p64.jpg";
+      const img65 =
+        "./images/p65.jpg";
+      const img66 =
+        "./images/p66.jpg";
+      const img67 =
+        "./images/p67.jpg";
+      const img68 =
+        "./images/p68.jpg";
+      const img69 =
+        "./images/p69.jpg";
+      const img70 =
+        "./images/p70.jpg";
+      const img71 =
+        "./images/p71.jpg";
+      const img72 =
+        "./images/p72.jpg";
+      const img73 =
+        "./images/p73.jpg";
+      const img74 =
+        "./images/p74.jpg";
+      const img75 =
+        "./images/p75.jpg";
+      const img76 =
+        "./images/p76.jpg";
+      const img77 =
+        "./images/p77.jpg";
+      const img78 =
+        "./images/p78.jpg";
+      const img79 =
+        "./images/p79.jpg";
+      const img80 =
+        "./images/p80.jpg";
+      const img81 =
+        "./images/p81.jpg";
+      const img82 =
+        "./images/p82.jpg";
+      const img83 =
+        "./images/p83.jpg";
+      const img84 =
+        "./images/p84.jpg";
+      const img85 =
+        "./images/p85.jpg";
+      const img86 =
+        "./images/p86.jpg";
+      const img87 =
+        "./images/p87.jpg";
+      const img88 =
+        "./images/p88.jpg";
+      const img89 =
+        "./images/p89.jpg";
+      const img90 =
+        "./images/p90.jpg";
+      const img91 =
+        "./images/p91.jpg";
+      const img92 =
+        "./images/p92.jpg";
+      const img93 =
+        "./images/p93.jpg";
+      const img94 =
+        "./images/p94.jpg";
+      const img95 =
+        "./images/p95.jpg";
+      const img96 =
+        "./images/p96.jpg";
+      const img97 =
+        "./images/p97.jpg";
+      const img98 =
+        "./images/p98.jpg";
+      const img99 =
+        "./images/p99.jpg";
+      const img100 =
+        "./images/p100.jpg";
+      const img101 =
+        "./images/p101.jpg";
+      const img102 =
+        "./images/p102.jpg";
+      const img103 =
+        "./images/p103.jpg";
+      const img104 =
+        "./images/p104.jpg";
+      const img105 =
+        "./images/p105.jpg";
+      const img106 =
+        "./images/p106.jpg";
+      const img107 =
+        "./images/p107.jpg";
+      const img108 =
+        "./images/p108.jpg";
+      const img109 =
+        "./images/p109.jpg";
+      const img110 =
+        "./images/p110.jpg";
 
       var table = [
         img1,
@@ -123,334 +327,334 @@
         img8,
         16,
         2,
-        img1,
+        img9,
         17,
         2,
-        img2,
+        img10,
         18,
         2,
-        img3,
+        img11,
         1,
         3,
-        img4,
+        img12,
         2,
         3,
-        img5,
+        img13,
         13,
         3,
-        img6,
+        img14,
         14,
         3,
-        img7,
+        img15,
         15,
         3,
-        img8,
+        img16,
         16,
         3,
-        img1,
+        img17,
         17,
         3,
-        img2,
+        img18,
         18,
         3,
-        img3,
+        img19,
         1,
         4,
-        img4,
+        img20,
         2,
         4,
-        img5,
+        img21,
         3,
         4,
-        img6,
+        img22,
         4,
         4,
-        img7,
+        img23,
         5,
         4,
-        img8,
+        img24,
         6,
         4,
-        img1,
+        img25,
         7,
         4,
-        img2,
+        img26,
         8,
         4,
-        img3,
+        img27,
         9,
         4,
-        img4,
+        img28,
         10,
         4,
-        img5,
+        img29,
         11,
         4,
-        img6,
+        img30,
         12,
         4,
-        img7,
+        img31,
         13,
         4,
-        img8,
+        img32,
         14,
         4,
-        img1,
+        img33,
         15,
         4,
-        img2,
+        img34,
         16,
         4,
-        img3,
+        img35,
         17,
         4,
-        img4,
+        img36,
         18,
         4,
-        img5,
+        img37,
         1,
         5,
-        img6,
+        img38,
         2,
         5,
-        img7,
+        img39,
         3,
         5,
-        img8,
+        img40,
         4,
         5,
-        img1,
+        img41,
         5,
         5,
-        img2,
+        img42,
         6,
         5,
-        img3,
+        img43,
         7,
         5,
-        img4,
+        img44,
         8,
         5,
-        img5,
+        img45,
         9,
         5,
-        img6,
+        img46,
         10,
         5,
-        img7,
+        img47,
         11,
         5,
-        img8,
+        img48,
         12,
         5,
-        img1,
+        img49,
         13,
         5,
-        img2,
+        img50,
         14,
         5,
-        img3,
+        img51,
         15,
         5,
-        img4,
+        img52,
         16,
         5,
-        img5,
+        img53,
         17,
         5,
-        img6,
+        img54,
         18,
         5,
-        img7,
+        img55,
         1,
         6,
-        img8,
+        img56,
         2,
         6,
-        img1,
+        img57,
         4,
         9,
-        img2,
+        img58,
         5,
         9,
-        img3,
+        img59,
         6,
         9,
-        img4,
+        img60,
         7,
         9,
-        img5,
+        img61,
         8,
         9,
-        img6,
+        img62,
         9,
         9,
-        img7,
+        img63,
         10,
         9,
-        img8,
+        img64,
         11,
         9,
-        img1,
+        img65,
         12,
         9,
-        img2,
+        img66,
         13,
         9,
-        img3,
+        img67,
         14,
         9,
-        img4,
+        img68,
         15,
         9,
-        img5,
+        img69,
         16,
         9,
-        img6,
+        img70,
         17,
         9,
-        img7,
+        img71,
         18,
         9,
-        img8,
+        img72,
         4,
         6,
-        img1,
+        img72,
         5,
         6,
-        img2,
+        img73,
         6,
         6,
-        img3,
+        img74,
         7,
         6,
-        img4,
+        img75,
         8,
         6,
-        img5,
+        img76,
         9,
         6,
-        img6,
+        img77,
         10,
         6,
-        img7,
+        img78,
         11,
         6,
-        img8,
+        img79,
         12,
         6,
-        img1,
+        img80,
         13,
         6,
-        img2,
+        img81,
         14,
         6,
-        img3,
+        img82,
         15,
         6,
-        img4,
+        img83,
         16,
         6,
-        img5,
+        img84,
         17,
         6,
-        img6,
+        img85,
         18,
         6,
-        img7,
+        img86,
         1,
         7,
-        img8,
+        img87,
         2,
         7,
-        img1,
+        img88,
         4,
         10,
-        img2,
+        img89,
         5,
         10,
-        img3,
+        img90,
         6,
         10,
-        img4,
+        img91,
         7,
         10,
-        img5,
+        img92,
         8,
         10,
-        img6,
+        img93,
         9,
         10,
-        img7,
+        img94,
         10,
         10,
-        img8,
+        img95,
         11,
         10,
-        img1,
+        img96,
         12,
         10,
-        img2,
+        img97,
         13,
         10,
-        img3,
+        img98,
         14,
         10,
-        img4,
+        img99,
         15,
         10,
-        img5,
+        img100,
         16,
         10,
-        img6,
+        img101,
         17,
         10,
-        img7,
+        img102,
         18,
         10,
-        img8,
+        img103,
         4,
         7,
-        img1,
+        img104,
         5,
         7,
-        img2,
+        img105,
         6,
         7,
-        img3,
+        img106,
         7,
         7,
-        img4,
+        img107,
         8,
         7,
-        img5,
+        img108,
         9,
         7,
-        img6,
+        img109,
         10,
         7,
-        img7,
+        img110,
         11,
         7,
-        img8,
+        img1,
         12,
         7,
-        img1,
+        img2,
         13,
         7,
-        img2,
+        img3,
         14,
         7,
-        img3,
+        img4,
         15,
         7,
-        img4,
+        img5,
         16,
         7,
-        img5,
+        img6,
         17,
         7,
-        img6,
+        img7,
         18,
         7
       ];
